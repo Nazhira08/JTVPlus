@@ -1,0 +1,30 @@
+$color1 : #d69f89;
+.feature {
+	.item {
+		text-align: center;
+	}
+	.i-wrapper {
+		padding: 24px 21px;
+		border: 1px solid $color1;
+		display: inline-block;
+		border-radius: 55px;
+	}
+	h4 {
+		text-transform: uppercase;
+	}
+	.sep {
+		background: $color1;
+	    display: inline-block;
+	    height: 1px;
+	    margin: 0 0 10px;
+	    width: 50px;
+	}
+}
+
+@media all and (max-width: 767px) { 
+	.feature {
+		.item {
+			margin-bottom: 30px;
+		}
+	}
+}

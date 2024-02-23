@@ -1,0 +1,17 @@
+html.js.csstransforms {
+	.feature .item {
+		opacity: 0;
+		&.ani-scale {
+			opacity: 1;
+		}
+	}
+
+	.ani-scale {
+	    -webkit-transition: all 0.5s ease-in;   
+		-moz-transition: all 0.5s ease-in;   
+		-o-transition: all 0.5s ease-in;  
+		-ms-transition: all 0.5s ease-in; 
+		transition: all 0.5s ease-in;
+	}
+
+}

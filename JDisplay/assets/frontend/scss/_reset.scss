@@ -1,0 +1,16 @@
+$font_family : 'Open Sans', sans-serif;
+$color: #0c0b41;
+body {
+	font-family: $font_family;
+	color: $color;
+}
+body, html {
+	overflow-x: hidden;
+}
+h1, h2, h3, h4 {
+	font-family: $font_family;
+}
+article {
+	padding: 0px;
+}
+

@@ -1,0 +1,261 @@
+$color1 : #0c0b41;
+$color4: #cccccc;
+$color2 : #d69f89;
+$color3 : white;
+$color5: #363636;
+
+$font-size : 13px;
+
+section h2 {
+	font-size: 40px;
+	font-weight: 400;
+}
+
+#menu {
+	.navbar a {
+		font-size: 13px;
+		color: $color3;
+	}
+	.navbar a.navbar-brand {
+		font-size: 40px;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+}
+header {
+	h2.main-headline {
+		text-transform: uppercase;
+		color: $color3;
+		font-size: 50px;
+		font-weight: 300;
+	}
+}
+
+#skill h2 {
+	color: $color3;
+}
+p {
+	font-size: $font-size;
+}
+.feature {
+	h4 {
+		font-size: 16px;
+	}
+	i {
+		color: $color2;
+		font-size: 30px;
+	}
+	.item p {
+		line-height: 25px;
+	}
+}
+#para_ex p, #emphasize p {
+	color: $color3;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 300;
+}
+
+
+.proj-nav {
+	li {
+		font-size: 16px;
+		border-bottom: 1px solid $color3;
+		margin-bottom: 5px;
+		a {
+			color: $color4;
+			text-transform: uppercase;
+			font-weight: 600;
+		}
+		&:hover, &.active {
+			a {
+				color: $color1;
+				text-decoration: none;
+			}
+			border-bottom: 1px solid $color2;
+		}
+	}
+}
+
+.testimonial {
+	.voice {
+		font-size: 50px;
+		font-weight: 300;
+	}
+	.position {
+		font-size: 24px;
+		font-weight: 600;
+		font-style: italic;
+	}
+}
+
+.percent {
+	font-size: 30px;
+	font-weight: 600;
+	color: $color3;
+	&:after {
+		font-size: 40px;
+	}
+}
+
+.widget {
+	.title {
+		font-size: 16px;
+		font-weight: 600;
+		color: $color3;
+		text-transform: uppercase;
+	}
+}
+.w-info {
+	i {
+		font-size: 30px;
+		color: $color3;
+	}
+	p {
+		color: $color3;
+	}
+}
+
+footer {
+	color: $color3;
+	a {
+		color: $color3;
+		&:hover {
+			color : $color3;
+		}
+	}
+	.s-menu  a {
+		font-size: 13px;
+	}
+}
+
+.lt-exp-wrapper {
+	i {
+		color: $color2;
+	}
+	li {
+		font-size: $font-size;
+	}
+	.lt-time {
+		font-weight: 600;
+		p {
+		  	font-size: 33px;
+		    word-wrap: break-word;
+		    color: $color3;
+		}
+	}
+	.lt-exp-content p {
+		line-height: 25px;
+	}
+	h4 {
+		text-transform: uppercase;
+	}
+}
+
+.w-contact {
+	input[type="textbox"], textarea {
+		font-size: $font-size;
+	}
+	input[type="submit"] { 
+		color: $color1;
+	}
+}
+.w-info {
+	a {
+		color: $color3;
+	}
+}
+
+.lt-wrap-overlay {
+	.lt-overlay {
+		.zoom {
+			border: 1px solid $color2;
+		}
+		.zoom i {
+			color: $color2;
+			font-size: 18px;
+		}
+		.title {
+			color: $color5;
+			font-size: 16px;
+		}
+		.excerpt {
+			color: $color5;
+			font-size: 13px;
+		}
+	}
+}
+
+.flex-direction-nav a:before {
+	font-size: 30px;
+}
+
+::-webkit-input-placeholder {
+   color: $color1;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: $color1;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: $color1;  
+}
+:-ms-input-placeholder {  
+   color: $color1;  
+}
+
+
+/*---------------------*/
+/*Mobile
+/*---------------------*/
+@media all and (max-width: 767px) { 
+	header {
+		h2.main-headline {
+			font-size: 30px;
+			padding-left: 50px;
+			bottom: 35%;
+		}
+	}
+	#menu {
+		.navbar a.navbar-brand {
+			font-size: 30px;
+		}
+	}
+	section h2 {
+		font-size: 30px;
+	}
+
+	.percent {
+		font-size: 24px;
+	}
+
+
+	.testimonial {
+		.voice {
+			@media all and (max-width: 767px) { 
+				font-size: 36px;
+			}
+		}
+		.position {
+			@media all and (max-width: 767px) { 
+				font-size: 16px;
+			}
+		}
+	}
+
+	#emphasize {
+		.center-text p, p{
+			font-size: 30px;
+		}
+	}
+
+	.flex-direction-nav {
+		width: 60px;
+		a {
+			width: 30px;
+			&:before {
+				font-size: 20px;
+			}
+		}
+	}
+
+}

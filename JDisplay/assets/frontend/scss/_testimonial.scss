@@ -1,0 +1,33 @@
+#testimonial {
+	padding: 0px 0px 90px;
+}
+.testimonial {
+	.voice, .position {
+		text-align: center;
+	}
+	.voice {
+		margin-bottom: 35px;
+		@media all and (min-width: 768px) and (max-width: 1024px) {  
+			margin-bottom: 20px;
+		}
+	}
+	.position {
+		margin-bottom: 80px;
+	}
+}
+
+@media all and (max-width: 767px) { 
+	.testimonial {
+		.position {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {  
+	.testimonial {
+		.voice {
+			margin-bottom: 20px;
+		}
+	}
+}

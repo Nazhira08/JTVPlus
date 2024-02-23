@@ -1,0 +1,32 @@
+section {
+	padding: 60px 0px 90px;
+
+	h2 {
+		text-align: center;
+		padding: 30px 0px;
+		margin: 0px 0px 40px;
+		text-transform: uppercase;
+	}
+}
+section.lead {
+	background-color: #F26C4F;
+	color: white;
+	text-align: center;
+	position: relative;
+
+	&:after {
+		content: '';
+		width: 0;
+		height: 0;
+
+		border-top-color: #F26C4F;
+		border-top: 25px solid #F26C4F;
+		border-right: 30px solid transparent;
+		border-left: 30px solid transparent;
+
+		position: absolute;
+		left: 50%;
+		margin-left: -30px;
+		bottom: -25px;
+	}
+}

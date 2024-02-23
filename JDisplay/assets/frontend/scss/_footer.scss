@@ -1,0 +1,49 @@
+footer {
+	background: #d69f89;
+	overflow: hidden;
+
+	li {
+		float: left;
+	}
+
+	.copyright {
+		margin: 5px 0px;
+	}
+	.s-menu {
+		ul {
+			float: right;
+			margin: 5px 0px;
+		}
+		li {
+			margin-right: 5px;
+			
+			a {
+				padding-right: 5px;
+				border-right: 1px solid white; 
+			}
+
+			&:last-child {
+				margin-right: 0px;
+			}
+			&:last-child a{
+				border-right: medium none;
+				padding-right: 0px;
+			}
+		}
+	}
+}
+@media all and (max-width: 767px) { 
+	footer {
+		.s-menu {
+			overflow: hidden;
+			display: table;
+			margin: 0 auto;
+			ul {
+				
+			}
+		}
+		.copyright {
+			text-align: center;
+		}
+	}
+}

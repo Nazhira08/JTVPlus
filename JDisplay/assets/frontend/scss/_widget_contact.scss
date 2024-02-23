@@ -1,0 +1,32 @@
+.w-contact {
+	form {
+		width: 100%;
+	}
+	input[type="textbox"], textarea {
+		width: 100%;
+		border: medium none;
+		margin-bottom: 10px;
+		border-radius: 5px;
+		opacity: 0.7;
+		padding: 10px;
+	}
+	input[type="submit"] {
+		float: right;
+		height: 30px;
+		border-radius: 5px;
+	}
+	input[type="textbox"] {
+		height: 35px;
+	}
+	textarea {
+		height: 130px;
+		padding: 10px
+	}
+}
+@media all and (min-width: 1024px) { 
+	.w-contact {
+		form {
+			width: 90%;
+		}
+	}
+}

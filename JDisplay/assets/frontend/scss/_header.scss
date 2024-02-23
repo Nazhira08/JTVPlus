@@ -1,0 +1,17 @@
+header {
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+
+	img.big-header  {
+		display: block;
+		width: auto;
+		margin-right: 10px;
+		position: relative;
+	}
+	h2.main-headline {
+		position: absolute;
+		bottom: 50%;
+	}
+}
+

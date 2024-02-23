@@ -1,0 +1,74 @@
+.lt-exp-wrapper  {
+	margin-left: 370px;
+	margin-right: 150px;
+
+	.flexslider:hover .flex-prev {
+		left: -350px;
+	}
+	.flexslider:hover .flex-next {
+		right: -115px;
+	}
+}
+.lt-exp-content {
+	float: left;
+	li {
+		margin-left: 30px;
+		margin-bottom: 5px;
+
+		i {
+			margin-right: 10px;
+			vertical-align: middle;
+			font-size: 7px;
+		}
+	}
+}
+.lt-time {
+	float: right;
+	margin-right: -60px;
+	height: 212px;
+
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 60px 212px;
+	background-image: url(../img/other/02_Year_shape.png);
+
+	p {
+	    padding: 10px 30px;
+	    text-align: center;
+	    width: 16px;
+	}
+}
+.lt-house {
+	float: left;
+	margin-left: -300px;
+	height: 220px;
+	width: 263px;
+
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 263px 220px;
+	background-image: url(../img/other/01_Building_shape.png);
+}
+
+@media all and (min-width:768px) and (max-width: 991px) { 
+	.lt-exp-wrapper  {
+		margin-left: 25px;
+		margin-right: 100px;
+		.flexslider:hover .flex-prev, .flexslider .flex-prev {
+			left: -25px;
+		}
+		.flexslider:hover .flex-next, .flexslider .flex-next {
+			right: -95px;
+		}
+	}
+}
+
+@media all and (max-width: 767px) { 
+	.lt-exp-wrapper  {
+		margin-left: 0px;
+		margin-right: 70px;
+		.slides {
+			margin-bottom: 20px;
+		}
+	}
+}

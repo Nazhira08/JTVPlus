@@ -1,0 +1,17 @@
+/*--------------------------*/
+/*Test back ground image using position absolute
+/*----------------------*/
+#emphasize {
+	position: relative;
+	padding: 0px;
+	img {
+		width: 100%;
+		display: block;
+	}
+	.center-text {
+		position: absolute;
+		width: 100%;
+		top: 50%;
+		text-align: center;
+	}
+}

@@ -1,0 +1,48 @@
+#menu {
+	width: 100%;
+
+	position: absolute;
+	bottom: 0;
+
+	nav {
+		border: medium none;
+		background: transparent;
+		margin-bottom: 0px;
+	}
+	nav.navbar {
+		padding: 10px 0px;
+		border-radius: 0;
+		&.navbar-fixed-top {
+			padding: 5px 0px;
+		}
+	}
+	nav.navbar-fixed-top {
+		background: black;
+	}
+	.navbar-brand {
+		padding: 15px 0px 0px 15px;
+		img {
+			width: 45px;
+			float: left; 
+			margin-top: -10px;
+		}
+		span {
+			float: left;
+			display: block;
+		}
+	}
+}
+@media all and (max-width: 767px) { 
+	#menu {
+		.navbar-brand {
+			img {
+				width: 30px;
+				float: left; 
+				margin-top: -2px;
+			}
+		}
+		#menu-content {
+			background: #000;
+		}
+	}
+}
